@@ -9,7 +9,6 @@ SHUFFLE_WALLETS = False
 BASE_RPC = 'https://base.meowrpc.com'
 
 CLAIM = False
-# SWAP = False
 
 PAUSE_BETWEEN_WALLETS = [10, 20]
 PAUSE_BETWEEN_MODULES = [10, 20]
