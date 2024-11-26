@@ -27,8 +27,6 @@ async def generate_database(
     tasks = []
     if CLAIM:
         tasks.append('CLAIM')
-    if SWAP:
-        tasks.append('SWAP')
 
     proxy_index = 0
     for private_key in private_keys:
